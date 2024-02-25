@@ -433,7 +433,10 @@ footer p {
   .nav-menu_visible {
     left: 0;
   }
-
+  .servicios2{
+    max-height: none;
+    text-align: left;
+  }
   iframe{
     width: 100%;
     height: auto;
