@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Casa Azul - Habitaciones</title>
+    <link rel="icon" href="img/icono.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/b70e687bce.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="logo">
+          <a href="#banner">
+            <img src="img/logojpg-02.jpg" alt="logo" />
+          </a>
+        </div>
+        <button class="nav-toggle" aria-label="Abrir menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="nav-menu">
+          <li>
+            <a class="nav-menu-item nav-link" href="#habitaciones-disponibles"
+              >Habitaciones</a
+            >
+          </li>
+          <li>
+            <a class="nav-menu-item nav-link" href="#instalaciones"
+              >Instalaciones</a
+            >
+          </li>
+          <li>
+            <a class="nav-menu-item nav-link" href="#servicios">Servicios</a>
+          </li>
+          <li>
+            <a class="nav-menu-item nav-link" href="#contacto">Contacto</a>
+          </li>
+          <li class="boton-reserva">
+            <a
+              class="nav-menu-item nav-link reserva"
+              href="https://api.whatsapp.com/send?phone=543543549992&text=Hola%20quisiera%20hacer%20una%20reserva"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Reservá</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="banner" id="banner">
+        <div class="banner-text">
+          <p class="banner-text-title">C A S A A Z U L</p>
+          <p class="banner-text-subtitle">Hospedaje en Villa Allende</p>
+        </div>
+      </div>
+      <div class="sub-body">
+        <div class="presentation">
+          <h2>Disfrutá de una relajante estadía en las Sierras Chicas</h2>
+          <h3>
+            A pocas cuadras del Córdoba Golf Club, entre el Shopping de Villa
+            Allende y el centro de la ciudad, se encuentra este refugio de
+            estilo rústico. Nuestras habitaciones, con aire acondicionado y baño
+            privado, ofrecen comodidad y tranquilidad. Con opciones para grupos
+            pequeños o familias, disfrutarás de un delicioso desayuno y acceso a
+            la piscina. Nuestra ubicación estratégica te acerca a puntos de
+            interés mientras te sumerges en la belleza natural de la zona.
+            Reserva ahora y encuentra un hogar lejos del hogar en Villa Allende.
+          </h3>
+        </div>
+        <section id="habitaciones-disponibles">
+          <h2>HABITACIONES DISPONIBLES</h2>
+          <div class="room celeste">
+            <img
+              class="room-img"
+              src="img/celeste.jpg"
+              alt="Habitación Celeste"
+            />
+            <h3>Habitacion Celeste</h3>
+            <div class="linea">
+              <img class="icono" src="img/cama-doble-icon.png" />
+              <p>1 cama matrimonial</p>
+            </div>
+            <div class="linea">
+              <img class="icono" src="img/aire-icon.png" />
+              <p>Aire acondicionado frío/calor</p>
+            </div>
+            <div class="linea">
+              <img class="icono" src="img/valija-icon.png" />
+              <p>Espacio para equipaje</p>
+            </div>
+          </div>
+          <div class="room magenta">
+            <img
+              class="room-img"
+              src="img/magenta.jpg"
+              alt="Habitación Magenta"
+            />
+            <h3>Habitacion Magenta</h3>
+            <div class="linea">
+              <img class="icono" src="img/cama-simple-icon.png" />
+              <p>2 camas individuales</p>
+            </div>
+            <div class="linea">
+              <img class="icono" src="img/aire-icon.png" />
+              <p>Aire acondicionado frío/calor</p>
+            </div>
+            <div class="linea">
+              <img class="icono" src="img/valija-icon.png" />
+              <p>Espacio para equipaje</p>
+            </div>
+          </div>
+        </section>
+        <section id="servicios">
+          <h2>SERVICIOS</h2>
+          <div class="servicios2">
+            <div class="linea">
+              <img class="icono" src="img/cafe-icon.png" />
+              <p>Desayuno incluído</p>
+            </div>
+            <div class="linea">
+              <img class="icono" src="img/bañera-icon.png" />
+              <p>Baño privado</p>
+            </div>
+            <div class="linea">
+              <img class="icono" src="img/avion-icon.png" />
+              <p>Traslado desde/hacia aeropuerto/terminal</p>
+            </div>
+            <div class="linea">
+              <img class="icono" src="img/llave-icon.png" />
+              <p>Autogestión de llave</p>
+            </div>
+            <div class="linea">
+              <img class="icono" src="img/auto-icon.png" />
+              <p>Transporte hacia sitios de interés</p>
+            </div>
+            <div class="linea">
+              <img class="icono" src="img/toalla-icon.png" />
+              <p>Toallas y ropa de cama</p>
+            </div>
+            <div class="linea">
+              <img class="icono" src="img/ambulancia-icon.png" />
+              <p>Servicio de emergencias privado</p>
+            </div>
+          </div>
+        </section>
+        <section id="instalaciones">
+          <h2>INSTALACIONES</h2>
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="img/FullSizeRender (2).jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/FullSizeRender (3).jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/FullSizeRender (4).jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/FullSizeRender.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/IMG_3893.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/IMG_6099.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/IMG_6101.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/IMG_6102.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/IMG_6103.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/IMG_6104.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/IMG_6107.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/IMG_6126.jpg" alt="" />
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <!-- div class="swiper-scrollbar"></div> -->
+          </div>
+        </section>
+        <section id="contacto">
+          <div class="contacto">
+            <h2>CONTACTO</h2>
+            <div class="linea">
+              <i class="fa-brands fa-whatsapp fa-2x"></i>
+              <h3>+ 54 9 3543 549992 - Solo mensajes</h3>
+            </div>
+            <div class="linea">
+              <img class="booking-icon" src="img/bookingcom-icon.png"></i>
+              <h3>Booking.com/CasaAzul</h3>
+            </div>
+            <div class="linea">
+              <i class="fa-brands fa-instagram fa-2x"></i>
+              <h3>instagram.com/casaazul</h3>
+            </div>
+            <div class="linea">
+              <i class="fa-brands fa-facebook fa-2x"></i>
+              <h3>facebook.com/CasaAzul</h3>
+            </div>
+            <div class="linea">
+              <i class="fa-solid fa-map-location-dot fa-2x"></i>
+              <h3>
+                Talavera de la Reina 560, Villa Allende - Córdoba, Argentina
+              </h3>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2>UBICACIÓN</h2>
+          <iframe
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5733.962858602059!2d-64.2846315274015!3d-31.291728010598526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329dc48f7ed2a5%3A0x5503e9159927bd73!2sHospedaje%20CASA%20AZUL%20B%26B!5e0!3m2!1ses!2sar!4v1708101065445!5m2!1ses!2sar"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; CASA AZUL - desde 2022</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,441 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "SimpleHandmade";
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  background-color: #1d5888; /* Color de fondo azul claro */
+  width: 100%;
+}
+
+/*Estilo de navbar*/
+.header {
+  background-image: linear-gradient(
+    30deg,
+    #ffffff 25%,
+    #1d5888 25%,
+    #113350 50%
+  );
+  position: sticky;
+  z-index: 2;
+  height: 80px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+}
+
+.nav-menu-item {
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  margin: 0 10px;
+  line-height: 80px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #0d273c;
+  width: max-content;
+}
+
+.reserva {
+  background-color: #1f8024;
+}
+
+.nav-toggle {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 0 20px;
+  line-height: 60px;
+  align-items: center;
+  display: none;
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: 140px;
+}
+
+.logo a{
+  display: flex;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.nav-menu-item:hover {
+  background-color: #1d5888;
+  transition: 0.5s;
+}
+
+/*Estilo banner*/
+.banner {
+  background: url(../img/banner.jpg) no-repeat center;
+  background-size: cover;
+  height: 555px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+}
+
+.banner-text {
+  text-shadow: #0c0f1f 3px 3px 2px;
+  padding-left: 100px;
+  padding-bottom: 15px;
+}
+.banner-text-title {
+  font-family: "sharon lipschutz handwriting";
+  font-size: 70px;
+  color: #fff;
+  text-align: center;
+}
+
+.banner-text-subtitle {
+  font-family: "SimpleHandmade";
+  font-size: 40px;
+  letter-spacing: 0.2em;
+  color: #fff;
+  text-align: center;
+}
+
+/*Estilo subbody*/
+.sub-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Estilo presentacion*/
+.presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  padding: 0 20px;
+  max-width: 1400px;
+}
+
+.presentation h2 {
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-shadow: 1px 2px #113350;
+}
+
+.presentation h3 {
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 0.1em;
+  margin-top: 20px;
+  line-height: 1.3em;
+}
+
+/*Estilo habitaciones*/
+h1 {
+  margin: 0;
+}
+
+section {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+section h2 {
+  font-size: 1.7em;
+  letter-spacing: 0.2em;
+  text-shadow: 1px 2px #113350;
+  margin-bottom: 10px;
+  border-bottom: 1px white solid;
+  border-top: 1px white solid;
+}
+
+.room {
+  display: inline-block;
+  width: 425px;
+  padding: 0px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #113350; /* Fondo blanco para las habitaciones */
+}
+
+.room.magenta {
+  border-color: #ca0266cb; /* Borde magenta para la habitación Magenta */
+}
+
+.room.magenta h3 {
+  color: #ca0266cb; /* Color de título magenta para la habitación Magenta */
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.room.celeste {
+  border-color: #0f3c4b; /* Borde celeste para la habitación Celeste */
+}
+
+.room.celeste h3 {
+  color: rgb(
+    57,
+    142,
+    211
+  ); /* Color de título celeste para la habitación Celeste */
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.room.celeste a {
+  background-color: #00bfff; /* Fondo celeste para el botón de reserva de la habitación Celeste */
+}
+
+.room.magenta p,
+.room.celeste p {
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+}
+
+.room-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.linea {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.linea .icono {
+  width: 40px;
+  height: 40px;
+  margin: 5px 25px;
+  object-fit: contain;
+}
+/* Estilo servicios*/
+
+.servicios {
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+}
+
+.servicios .linea {
+  justify-content: space-around;
+}
+
+.linea-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+p {
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+h3 {
+  margin: 10px 0;
+}
+/* Estilo servicios2*/
+
+.servicios2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  max-height: 244px;
+}
+
+.servicios .linea {
+  justify-content: space-around;
+  display: flex;
+}
+
+.linea-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+p {
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+h3 {
+  margin: 10px 0;
+}
+/*Estilo instalaciones*/
+.swiper {
+  width: 425px;
+  margin: 20px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  opacity: 0;
+  --swiper-navigation-size: 20px;
+  --swiper-theme-color: #1d5888;
+
+  transition: opacity 0.3s;
+}
+
+.swiper:hover .swiper-button-prev,
+.swiper:hover .swiper-button-next {
+  opacity: 1;
+}
+
+.swiper-pagination {
+  --swiper-pagination-color: #1d5888;
+  --swiper-pagination-left: auto;
+  --swiper-pagination-right: 8px;
+  --swiper-pagination-bottom: 8px;
+  --swiper-pagination-top: auto;
+  --swiper-pagination-fraction-color: inherit;
+  --swiper-pagination-progressbar-bg-color: rgba(0, 0, 0, 0.25);
+  --swiper-pagination-progressbar-size: 4px;
+  --swiper-pagination-bullet-size: 6px;
+  --swiper-pagination-bullet-inactive-color: #0d273c;
+  --swiper-pagination-bullet-inactive-opacity: 0.5;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 3px;
+  --swiper-pagination-bullet-vertical-gap: 6px;
+}
+
+/*estilo contacto*/
+.contacto i, 
+.booking-icon
+ {
+  width: 33px;
+  padding: 10px;
+  box-sizing: content-box;
+}
+
+/*Estilo ubicacion*/
+iframe {
+  padding: 20px;
+}
+
+/*Estilo footer*/
+footer {
+  background-color: #0c0f1f;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Sharon Lipschutz Handwriting";
+  src: url(sharon-lipschutz-handwriting.ttf);
+}
+@font-face {
+  font-family: "SimpleHandmade";
+  src: url(Louis-George-Cafe-Light.ttf);
+}
+@media (max-width: 996px) {
+  .header {
+    background-image: linear-gradient(30deg, #1d5888 25%, #113350 50%);
+    height: 60px;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    background-color: #113350;
+    width: 100%;
+    padding: 20px 0;
+
+    height: calc(100% - 60px);
+    overflow-y: auto;
+
+    left: 100%;
+    transition: left 0.3s;
+  }
+
+  .nav-menu-item {
+    line-height: 70px;
+    font-size: 18px;
+    background-color: transparent;
+  }
+
+  .reserva {
+    color: #1f8024;
+  }
+
+  .boton-reserva {
+    order: -1;
+  }
+
+  .nav-menu-item:hover {
+    background: none;
+    color: #1d5888;
+    transition: 0.5s;
+  }
+
+  .logo {
+    box-shadow: 5px 5px 5px #113350;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #113350;
+    width: 100px;
+  }
+
+  .nav-menu_visible {
+    left: 0;
+  }
+
+  iframe{
+    width: 100%;
+    height: auto;
+  }
+}
