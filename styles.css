@@ -82,7 +82,7 @@ main {
   width: 140px;
 }
 
-.logo a{
+.logo a {
   display: flex;
 }
 
@@ -224,6 +224,7 @@ section h2 {
 .room.celeste p {
   font-size: 1.3em;
   letter-spacing: 0.1em;
+  text-align: left;
 }
 
 .room-img {
@@ -343,9 +344,8 @@ h3 {
 }
 
 /*estilo contacto*/
-.contacto i, 
-.booking-icon
- {
+.contacto i,
+.booking-icon {
   width: 33px;
   padding: 10px;
   box-sizing: content-box;
@@ -448,7 +448,7 @@ footer p {
   .banner-text-title {
     font-size: 50px;
   }
-  
+
   .banner-text-subtitle {
     font-size: 30px;
   }
@@ -465,32 +465,49 @@ footer p {
     width: 400px;
   }
 
-  .servicios2{
+  .servicios2 {
     max-height: none;
     text-align: left;
   }
-  iframe{
+  iframe {
     width: 100%;
     height: auto;
   }
 
-  @media (max-width: 420px){
-    
+  @media (max-width: 420px) {
+    .banner {
+      height: 330px;
+    }
+
     .banner-text-title {
       font-size: 40px;
     }
-    
+
     .banner-text-subtitle {
       font-size: 20px;
+    }
+
+    .presentation h2 {
+      font-size: 20px;
+    }
+
+    .presentation h3 {
+      font-size: 13px;
+      margin-top: 15px;
+      line-height: 1.2em;
     }
 
     .room {
       width: 350px;
     }
-  
+
+    .room.magenta p,
+    .room.celeste p {
+      font-size: 1.2em;
+    }
+
     .swiper {
       width: 350px;
     }
-
   }
 }
