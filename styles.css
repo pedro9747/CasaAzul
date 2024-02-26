@@ -433,6 +433,36 @@ footer p {
   .nav-menu_visible {
     left: 0;
   }
+
+  .banner {
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .banner-text {
+    padding-left: 0px;
+    padding-bottom: 15px;
+  }
+  .banner-text-title {
+    font-size: 50px;
+  }
+  
+  .banner-text-subtitle {
+    font-size: 30px;
+  }
+
+  .presentation {
+    margin: 25px;
+  }
+
+  .room {
+    width: 400px;
+  }
+
+  .swiper {
+    width: 400px;
+  }
+
   .servicios2{
     max-height: none;
     text-align: left;
