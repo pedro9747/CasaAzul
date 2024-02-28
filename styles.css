@@ -58,6 +58,19 @@ main {
   width: max-content;
 }
 
+.flags{
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flag-item img{
+  width: 30px;
+  cursor: pointer;
+  display: block;
+}
+
 .reserva {
   background-color: #1f8024;
 }

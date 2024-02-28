@@ -24,25 +24,54 @@
             <img src="img/logojpg-02.jpg" alt="logo" />
           </a>
         </div>
+
         <button class="nav-toggle" aria-label="Abrir menu">
           <i class="fa-solid fa-bars"></i>
         </button>
         <ul class="nav-menu">
+          <div id="flags" class="flags">
+            <div class="flag-item" data-language="es">
+              <img src="img/espana.png" alt="Bandera de España" />
+            </div>
+            <div class="flag-item" data-language="en">
+              <img src="img/reino-unido.png" alt="Bandera del Reino Unido" />
+            </div>
+          </div>
           <li>
-            <a class="nav-menu-item nav-link" href="#habitaciones-disponibles"
+            <a
+              class="nav-menu-item nav-link"
+              href="#habitaciones-disponibles"
+              data-section="nav-bar"
+              data-value="room-btn"
               >Habitaciones</a
             >
           </li>
           <li>
-            <a class="nav-menu-item nav-link" href="#instalaciones"
+            <a
+              class="nav-menu-item nav-link"
+              href="#instalaciones"
+              data-section="nav-bar"
+              data-value="instalation-btn"
               >Instalaciones</a
             >
           </li>
           <li>
-            <a class="nav-menu-item nav-link" href="#servicios">Servicios</a>
+            <a
+              class="nav-menu-item nav-link"
+              href="#servicios"
+              data-section="nav-bar"
+              data-value="services-btn"
+              >Servicios</a
+            >
           </li>
           <li>
-            <a class="nav-menu-item nav-link" href="#contacto">Contacto</a>
+            <a
+              class="nav-menu-item nav-link"
+              href="#contacto"
+              data-section="nav-bar"
+              data-value="contact-btn"
+              >Contacto</a
+            >
           </li>
           <li class="boton-reserva">
             <a
@@ -50,6 +79,8 @@
               href="https://api.whatsapp.com/send?phone=543543549992&text=Hola%20quisiera%20hacer%20una%20reserva"
               target="_blank"
               rel="noopener noreferrer"
+              data-section="nav-bar"
+              data-value="book-btn"
               >Reservá</a
             >
           </li>
@@ -61,13 +92,21 @@
       <div class="banner" id="banner">
         <div class="banner-text">
           <p class="banner-text-title">CASA AZUL</p>
-          <p class="banner-text-subtitle">Hospedaje en Villa Allende</p>
+          <p
+            class="banner-text-subtitle"
+            data-section="banner"
+            data-value="subtitle"
+          >
+            Hospedaje en Villa Allende
+          </p>
         </div>
       </div>
       <div class="sub-body">
         <div class="presentation">
-          <h2>Disfrutá de una relajante estadía en las Sierras Chicas</h2>
-          <h3>
+          <h2 data-section="presentation" data-value="title">
+            Disfrutá de una relajante estadía en las Sierras Chicas
+          </h2>
+          <h3 data-section="presentation" data-value="text">
             A pocas cuadras del Córdoba Golf Club, entre el Shopping de Villa
             Allende y el centro de la ciudad, se encuentra este refugio de
             estilo rústico. Nuestras habitaciones, con aire acondicionado y baño
@@ -79,25 +118,35 @@
           </h3>
         </div>
         <section id="habitaciones-disponibles">
-          <h2>HABITACIONES DISPONIBLES</h2>
+          <h2 data-section="rooms" data-value="title">
+            HABITACIONES DISPONIBLES
+          </h2>
           <div class="room celeste">
             <img
               class="room-img"
               src="img/celeste.jpg"
               alt="Habitación Celeste"
             />
-            <h3>Habitacion Celeste</h3>
+            <h3 data-section="rooms" data-value="blue-title">
+              Habitacion Celeste
+            </h3>
             <div class="linea">
               <img class="icono" src="img/cama-doble-icon.png" />
-              <p>1 cama matrimonial</p>
+              <p data-section="rooms" data-value="first-element-blue">
+                1 cama matrimonial
+              </p>
             </div>
             <div class="linea">
               <img class="icono" src="img/aire-icon.png" />
-              <p>Aire acondicionado frío/calor</p>
+              <p data-section="rooms" data-value="second-element-blue">
+                Aire acondicionado frío/calor
+              </p>
             </div>
             <div class="linea">
               <img class="icono" src="img/valija-icon.png" />
-              <p>Espacio para equipaje</p>
+              <p data-section="rooms" data-value="third-element-blue">
+                Espacio para equipaje
+              </p>
             </div>
           </div>
           <div class="room magenta">
@@ -106,56 +155,78 @@
               src="img/magenta.jpg"
               alt="Habitación Magenta"
             />
-            <h3>Habitacion Magenta</h3>
+            <h3 data-section="rooms" data-value="magenta-title">
+              Habitacion Magenta
+            </h3>
             <div class="linea">
               <img class="icono" src="img/cama-simple-icon.png" />
-              <p>2 camas individuales</p>
+              <p data-section="rooms" data-value="first-element-magenta">
+                2 camas individuales
+              </p>
             </div>
             <div class="linea">
               <img class="icono" src="img/aire-icon.png" />
-              <p>Aire acondicionado frío/calor</p>
+              <p data-section="rooms" data-value="second-element-magenta">
+                Aire acondicionado frío/calor
+              </p>
             </div>
             <div class="linea">
               <img class="icono" src="img/valija-icon.png" />
-              <p>Espacio para equipaje</p>
+              <p data-section="rooms" data-value="third-element-magenta">
+                Espacio para equipaje
+              </p>
             </div>
           </div>
         </section>
         <section id="servicios">
-          <h2>SERVICIOS</h2>
+          <h2 data-section="services" data-value="title">SERVICIOS</h2>
           <div class="servicios2">
             <div class="linea">
               <img class="icono" src="img/cafe-icon.png" />
-              <p>Desayuno incluído</p>
+              <p data-section="services" data-value="first-element">
+                Desayuno incluído
+              </p>
             </div>
             <div class="linea">
               <img class="icono" src="img/bañera-icon.png" />
-              <p>Baño privado</p>
+              <p data-section="services" data-value="second-element">
+                Baño privado
+              </p>
             </div>
             <div class="linea">
               <img class="icono" src="img/avion-icon.png" />
-              <p>Traslado desde/hacia aeropuerto/terminal</p>
+              <p data-section="services" data-value="third-element">
+                Traslado desde/hacia aeropuerto/terminal
+              </p>
             </div>
             <div class="linea">
               <img class="icono" src="img/llave-icon.png" />
-              <p>Autogestión de llave</p>
+              <p data-section="services" data-value="fouth-element">
+                Autogestión de llave
+              </p>
             </div>
             <div class="linea">
               <img class="icono" src="img/auto-icon.png" />
-              <p>Transporte hacia sitios de interés</p>
+              <p data-section="services" data-value="fifth-element">
+                Transporte hacia sitios de interés
+              </p>
             </div>
             <div class="linea">
               <img class="icono" src="img/toalla-icon.png" />
-              <p>Toallas y ropa de cama</p>
+              <p data-section="services" data-value="sixth-element">
+                Toallas y ropa de cama
+              </p>
             </div>
             <div class="linea">
               <img class="icono" src="img/ambulancia-icon.png" />
-              <p>Servicio de emergencias privado</p>
+              <p data-section="services" data-value="seventh-element">
+                Servicio de emergencias privado
+              </p>
             </div>
           </div>
         </section>
         <section id="instalaciones">
-          <h2>INSTALACIONES</h2>
+          <h2 data-section="instalations" data-value="title">INSTALACIONES</h2>
           <!-- Slider main container -->
           <div class="swiper">
             <!-- Additional required wrapper -->
@@ -211,10 +282,12 @@
         </section>
         <section id="contacto">
           <div class="contacto">
-            <h2>CONTACTO</h2>
+            <h2 data-section="contact" data-value="title">CONTACTO</h2>
             <div class="linea">
               <i class="fa-brands fa-whatsapp fa-2x"></i>
-              <h3>+ 54 9 3543 549992 - Solo mensajes</h3>
+              <h3 data-section="contact" data-value="wp-element">
+                + 54 9 3543 549992 - Solo mensajes
+              </h3>
             </div>
             <div class="linea">
               <img class="booking-icon" src="img/bookingcom-icon.png" />
@@ -237,7 +310,7 @@
           </div>
         </section>
         <section>
-          <h2>UBICACIÓN</h2>
+          <h2 data-section="ubication" data-value="title">UBICACIÓN</h2>
           <iframe
             class="map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5733.962858602059!2d-64.2846315274015!3d-31.291728010598526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329dc48f7ed2a5%3A0x5503e9159927bd73!2sHospedaje%20CASA%20AZUL%20B%26B!5e0!3m2!1ses!2sar!4v1708101065445!5m2!1ses!2sar"
@@ -252,7 +325,9 @@
       </div>
     </main>
     <footer>
-      <p>&copy; CASA AZUL - desde 2022</p>
+      <p data-section="footer" data-value="text">
+        &copy; CASA AZUL - desde 2022
+      </p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>

@@ -1,0 +1,50 @@
+{
+  "nav-bar": {
+    "room-btn": "Rooms",
+    "instalation-btn": "Instalations",
+    "services-btn": "Servicies",
+    "contact-btn": "Contact",
+    "book-btn": "Book now!"
+  },
+  "banner": {
+    "subtitle": "Hostage en Villa Allende"
+  },
+  "presentation": {
+    "title": "Enjoy a relaxing stay in Sierras Chicas",
+    "text": "A few blocks from the Cordoba Golf Club, between Villa Allende Shopping and the city centre, you will find this rustic-style retreat. Our air-conditioned rooms with private bathrooms offer comfort and tranquillity. With options for small groups or families, you will enjoy a delicious breakfast and access to the swimming pool with barbecue. Our strategic location puts you close to points of interest while you immerse yourself in the natural beauty of the area. Book now and find a home away from home in Villa Allende."
+  },
+  "rooms": {
+    "title": "AVAILABLE ROOMS",
+    "blue-title": "Blue Room",
+    "first-element-blue": "1 double bed",
+    "second-element-blue": "A/C",
+    "third-element-blue": "Luggage room",
+    "magenta-title": "Magenta Room",
+    "first-element-magenta": "2 individual beds",
+    "second-element-magenta": "A/C",
+    "third-element-magenta": "Luggage room"
+  },
+  "services": {
+    "title": "SERVICES",
+    "first-element": "Breakfast",
+    "second-element": "Private bathroom",
+    "third-element": "Transport from/to the airpot/bus station",
+    "fouth-element": "Key control",
+    "fifth-element": "Transport to points of interest",
+    "sixth-element": "Towels and bed linen",
+    "seventh-element": "Emergency service"
+  },
+  "instalations": {
+    "title": "INSTALATIONS"
+  },
+  "contact": {
+    "title": "CONTACT",
+    "wp-element": "+ 54 9 3543 549992 - Text only"
+  },
+  "ubication": {
+    "title": "UBICATION"
+  },
+  "footer": {
+    "text": "© CASA AZUL - since 2022"
+  }
+}

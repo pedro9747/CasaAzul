@@ -1,0 +1,50 @@
+{
+  "nav-bar": {
+    "room-btn": "Habitaciones",
+    "instalation-btn": "Instalaciones",
+    "services-btn": "Servicios",
+    "contact-btn": "Contacto",
+    "book-btn": "Reservá"
+  },
+  "banner": {
+    "subtitle": "Hospedaje en Villa Allende"
+  },
+  "presentation": {
+    "title": "Disfrutá de una relajante estadía en las Sierras Chicas",
+    "text": "A pocas cuadras del Córdoba Golf Club, entre el Shopping de Villa Allende y el centro de la ciudad, se encuentra este refugio de estilo rústico. Nuestras habitaciones, con aire acondicionado y baño privado, ofrecen comodidad y tranquilidad. Con opciones para grupos pequeños o familias, disfrutarás de un delicioso desayuno y acceso a la piscina con asador. Nuestra ubicación estratégica te acerca a puntos de interés mientras te sumerges en la belleza natural de la zona. Reserva ahora y encuentra un hogar lejos del hogar en Villa Allende."
+  },
+  "rooms": {
+    "title": "HABITACIONES DISPONIBLES",
+    "blue-title": "Habitación Celeste",
+    "first-element-blue": "1 cama matrimonial",
+    "second-element-blue": "Aire acondicionado frío/calor",
+    "third-element-blue": "Espacio para equipaje",
+    "magenta-title": "Habitación Magenta",
+    "first-element-magenta": "2 camas individuales",
+    "second-element-magenta": "Aire acondicionado frío/calor",
+    "third-element-magenta": "Espacio para equipaje"
+  },
+  "services": {
+    "title": "SERVICIOS",
+    "first-element": "Desayuno incluído",
+    "second-element": "Baño privado",
+    "third-element": "Traslado desde/hacia aeropuerto/terminal",
+    "fouth-element": "Autogestión de llave",
+    "fifth-element": "Transporte hacia sitios de interés",
+    "sixth-element": "Toallas y ropa de cama",
+    "seventh-element": "Servicio de emergencias privado"
+  },
+  "instalations": {
+    "title": "INSTALACIONES"
+  },
+  "contact": {
+    "title": "CONTACTO",
+    "wp-element": "+ 54 9 3543 549992 - Solo mensajes"
+  },
+  "ubication": {
+    "title": "UBICACIÓN"
+  },
+  "footer": {
+    "text": "© CASA AZUL - desde 2022"
+  }
+}
