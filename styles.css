@@ -7,6 +7,10 @@
   font-weight: bold;
 }
 
+html{
+  scroll-padding-top: 90px;
+}
+
 main {
   background-color: #1d5888; /* Color de fondo azul claro */
   width: 100%;

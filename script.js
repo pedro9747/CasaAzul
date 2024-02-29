@@ -11,6 +11,11 @@ if(navMenu.classList.contains("nav-menu-visible")){
     navToggle.setAttribute("aria-label", "Abrir menu")
 }
 
+//regreso del menu
+navMenu.addEventListener("click", () =>{
+  navMenu.classList.toggle("nav-menu_visible");
+});
+
 //selector de idioma
 const flagsElement = document.getElementById("flags");
 const textsToChange = document.querySelectorAll("[data-section]");
