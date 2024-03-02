@@ -5,9 +5,10 @@
   font-family: "SimpleHandmade";
   color: white;
   font-weight: bold;
+  text-decoration: none;
 }
 
-html{
+html {
   scroll-padding-top: 90px;
 }
 
@@ -62,14 +63,14 @@ main {
   width: max-content;
 }
 
-.flags{
+.flags {
   width: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.flag-item img{
+.flag-item img {
   width: 30px;
   cursor: pointer;
   display: block;
@@ -368,6 +369,11 @@ h3 {
   box-sizing: content-box;
 }
 
+.linea a {
+  display: flex;
+  align-items: center;
+}
+
 /*Estilo ubicacion*/
 iframe {
   padding: 20px;
@@ -504,7 +510,7 @@ footer p {
       font-size: 20px;
     }
 
-    .presentation{
+    .presentation {
       margin: 20px 10px;
     }
 
