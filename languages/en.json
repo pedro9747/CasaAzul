@@ -32,7 +32,9 @@
     "fouth-element": "Key control",
     "fifth-element": "Transport to points of interest",
     "sixth-element": "Towels and bed linen",
-    "seventh-element": "Emergency service"
+    "seventh-element": "Emergency service",
+    "eight-element": "Barbecue",
+    "nineth-element": "Swimming pool"
   },
   "instalations": {
     "title": "FACILITIES"

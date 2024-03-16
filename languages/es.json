@@ -32,7 +32,9 @@
     "fouth-element": "Autogestión de llave",
     "fifth-element": "Transporte hacia sitios de interés",
     "sixth-element": "Toallas y ropa de cama",
-    "seventh-element": "Servicio de emergencias privado"
+    "seventh-element": "Servicio de emergencias privado",
+    "eight-element": "Asador",
+    "nineth-element": "Pileta"
   },
   "instalations": {
     "title": "INSTALACIONES"

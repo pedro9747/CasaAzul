@@ -297,7 +297,7 @@ h3 {
   flex-direction: column;
   flex-wrap: wrap;
   max-width: 1400px;
-  max-height: 244px;
+  max-height: 255px;
 }
 
 .servicios .linea {
