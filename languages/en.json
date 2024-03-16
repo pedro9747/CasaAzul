@@ -1,10 +1,10 @@
 {
   "nav-bar": {
     "room-btn": "Rooms",
-    "instalation-btn": "Instalations",
+    "instalation-btn": "Facilities",
     "services-btn": "Servicies",
     "contact-btn": "Contact",
-    "book-btn": "Book now!"
+    "book-btn": "Book now"
   },
   "banner": {
     "subtitle": "Hostage en Villa Allende"
@@ -45,6 +45,6 @@
     "title": "LOCATION"
   },
   "footer": {
-    "text": "© CASA AZUL - since 2022"
+    "text": "CASA AZUL - since 2022"
   }
 }
